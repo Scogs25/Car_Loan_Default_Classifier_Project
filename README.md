@@ -16,7 +16,8 @@ However, builiding a model that can identiy troublesome loans at a high rate is 
 The inspiration for this project was the 2007-2008 finacial crisis that was largely due to the fact of 'bad home loans'. Of course, this project is about car loans but the idea is essentially the same. The ideal model for this project will be one that maximizes F1 Score. But more specifically, Recall is the metric that was considered the most during model selection. The idea being that by using Recall, we can minimize our false negatives and thus avoid labeling loans as 'safe' when they are anything but. Hopefully, a model like the one chosen could be used to avoid mass default and financial termoil in our modern globalized world. 
 ## Repo Structure and Project Approach
  All visulaizations used for both this Readme and the presenation pdf can be found in the pngs folder.
- The pdf 'How to Prevent a Car Loan Default Crisis" contains the a pdf presentation of this project
+ The pdf 'How to Prevent a Car Loan Default Crisis" contains the  pdf presentation of this project.
+ 
  All of the code used during this project can be found in the jupyter notebooks folder. 
  The notebooks are in the following order:
  - Preliminary_Data_Cleaning_EDA.ipynb
