@@ -45,6 +45,8 @@ Thus, the conclusion here would be prioritize applicants who have a salaried pos
 - The Last model used was an ensemble voting classifier. This model was essentially made up of the other five  models and then used the most common classification for each observation to make it's predicted classifictions. It achieved an F1 score of .654 and a recall score of .79 on the test set. It did have the highest overall acurracy at 58% while the other models were around 52% accuracy.  
 Please note that one major issue with this dataset was large class imbalance. To resolve this, I downsampled the majority class before modeling. 
 ## Final Modeling and Anaylsis 
-
-
+ After comparing models and weighing the advantages and consequences of each model, I decided to select the Decision Tree Model. 
+ The primary reasons why I chose this model were due to it's performance and it's interpretability. The model achived a higher F1 score and Recall score than any other model. This was very important during selection because the model with the highest Recall Score would then have the least number of false positive observations. Interpretabilty also was an advantage because a decision tree allows you to visually see how and why observatons were split feature by feature. 
+ Also, a decision tree allows you to see feature importances so you can see how each important each feature is relative to other features. Thus, allowing you to see which features matter the most. 
+ ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Final_Model_Important_Features.png)
 
