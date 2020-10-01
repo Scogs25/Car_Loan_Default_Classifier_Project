@@ -52,3 +52,15 @@ Please note that one major issue with this dataset was large class imbalance. To
  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Final_Model_Important_Features.png)
  
  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Decision_Tree_Visual.png)
+ ## Conclusions and Next Steps
+  There were two  surpring and interesting conclusions I found from the modeling process. 
+  Those would be the following:
+  1. When looking at a large car loan, pay extra attention to that person's credit score becuase it will be very telling of default 
+  1. Look closely at a borrower's accounts and any deliquency in terms of payment, espically for young people (early to mid 20s) and adults in their mid 40s or older. 
+  Please see the following visualizations to see what I mean. 
+  
+  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/How_High_Risk_and_Large_Principal_affect_Car_loan_Defaults.png)
+  
+  ![Image](https://github.com/Scogs25/Car_Loan_Default_Classifier_Project/blob/master/pngs/How_Age_and_Delinquent_Accounts_Influence_Loan_Defaults.png)
+  
+  The first insight makes common sense but the second insight surprised me. I would infer that these groups have particular trouble paying back loans if they have shown deliquency, because they have other financial restraints and responisibilities. In terms of the borrowers, in their 20s I would imagine college loans and low entry level salaries are to blame for inability to repay and as for Adults in their mid 40s and above, they may have many children but this age to care for or they may have a lot of debt from credit cards or a mortgage.
