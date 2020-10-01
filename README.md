@@ -47,6 +47,8 @@ Please note that one major issue with this dataset was large class imbalance. To
 ## Final Modeling and Anaylsis 
  After comparing models and weighing the advantages and consequences of each model, I decided to select the Decision Tree Model. 
  The primary reasons why I chose this model were due to it's performance and it's interpretability. The model achived a higher F1 score and Recall score than any other model. This was very important during selection because the model with the highest Recall Score would then have the least number of false positive observations. Interpretabilty also was an advantage because a decision tree allows you to visually see how and why observatons were split feature by feature. 
- Also, a decision tree allows you to see feature importances so you can see how each important each feature is relative to other features. Thus, allowing you to see which features matter the most. Please see below to see what I mean
+ Also, a decision tree allows you to see feature importances so you can see how each important each feature is relative to other features. Thus, allowing you to see which features matter the most. Please see below to see what I mean.
+ 
  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Final_Model_Important_Features.png)
+ 
  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Decision_Tree_Visual.png)
