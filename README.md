@@ -7,7 +7,8 @@ By Michael Scognamiglio
 1. Exploratory Data Analysis and Insights
 1. Modeling 
 1. Final Modeling and Analysis
-1. Conclusions and Next Steps
+1. Conclusions 
+1. Next Steps
 ## Project Overview 
 Car loans are one of the most common debts in America and Worldwide. In fact, there is over a trillion dollars in car loan debt in America alone. 
 However, builiding a model that can identiy troublesome loans at a high rate is still very rare. Thus, this project strives to use EDA, statistical testing, and modal anaylsis to generate insights into what factors should be most strongly considered when looking at a borrower's ability to repay their car loans. Of Course, in the process I am also striving to create a useful model that lenders could use to flag 'bad loans'. This dataset was obtained from many Indian financial Institutions and compiled into one large dataset. The original dataset can be found on kaggle at the following link: https://www.kaggle.com/gauravdesurkar/lt-vehicle-loan-default-prediction.
@@ -56,7 +57,7 @@ Please note that one major issue with this dataset was large class imbalance. To
  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Final_Model_Important_Features.png)
  
  ![Image](https://raw.githubusercontent.com/Scogs25/Car_Loan_Default_Classifier_Project/master/pngs/Decision_Tree_Visual.png)
- ## Conclusions and Next Steps
+ ## Conclusions 
   There were two  surpring and interesting conclusions I found from the modeling process. 
   Those would be the following:
   1. When looking at a large car loan, pay extra attention to that person's credit score becuase it will be very telling of whether or not they will default 
@@ -68,5 +69,6 @@ Please note that one major issue with this dataset was large class imbalance. To
   ![Image](https://github.com/Scogs25/Car_Loan_Default_Classifier_Project/blob/master/pngs/How_Age_and_Delinquent_Accounts_Influence_Loan_Defaults.png)
   
   The first insight makes common sense but the second insight surprised me. I would infer that these groups have particular trouble paying back loans if they have shown deliquency, because they have other financial restraints and responisibilities. In terms of the borrowers, in their 20s I would imagine college loans and low entry level salaries are to blame for inability to repay and as for Adults in their mid 40s and above, they may have many children at this age to care for which can be very expensive  or perhaps they  have a lot of debt from credit cards or a mortgage.
+  ## Next Steps
   One weakness of this model was the fact that it was great at maximizing Recall and minimizing Type II error but in doing so it really reduced its's precision and 
   Type I Error increased. Thus, this led to way more false positives than would be ideal. I still chose the model though becase I prioritized false negatives so highly due to my business case. However, in the future, I would like to explore this further to see if I can try to find a better balance between these two parameters.
