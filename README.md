@@ -1,4 +1,4 @@
-# Car_Loan_Default_Classifier_Project
+# Car Loan Default Classifier Project
 By Michael Scognamiglio
 ## Table of Contents
 1. Project Overview
