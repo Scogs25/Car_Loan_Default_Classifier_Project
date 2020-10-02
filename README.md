@@ -2,7 +2,7 @@
 By Michael Scognamiglio
 ## Table of Contents
 1. Project Overview
-1. Business Case and Approach
+1. Business Case 
 1. Repo Structure and Project Approach
 1. Exploratory Data Analysis and Insights
 1. Modeling 
